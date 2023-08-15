@@ -1,0 +1,50 @@
+@import url(fonts.css);
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 133px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.main-header > a{
+
+    margin: 25px;
+}
+
+
+nav > p{
+    display: inline;
+    padding: 0 10px;
+    font-family: 'bga', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 2.4px; 
+}
+
+.featured-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.featured-content > img{
+    padding-top: 20px;
+    width: 854px;
+    height: 533px;
+    flex-shrink: 0; 
+}
+
+.featured-content > h1{
+    width: 854px;
+    text-align: center;
+    font-family: 'mackay-bold', sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700; 
+}
