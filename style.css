@@ -1,5 +1,10 @@
 @import url(assets/fonts.css);
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .main-header{
     display: flex;
     justify-content: space-between;
@@ -14,7 +19,7 @@
 }
 
 .header-links{
-    margin-right: 33px;
+    margin-right: 25px;
 
 }
 
@@ -24,7 +29,6 @@
     padding: 0 10px;
     font-family: 'bga', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     letter-spacing: 2.4px; 
 }
@@ -50,8 +54,8 @@
     text-align: center;
     font-family: 'mackay-bold';
     font-size: 54px;
-    font-style: normal;
     font-weight: 700; 
+    margin: 50px 0 0 0;
 }
 
 .featured-content > p{
@@ -59,16 +63,16 @@
     text-align: center;
     font-family: 'harriet';
     font-size: 20px;
-    font-style: normal;
     font-weight: 400; 
     width: 450px;
     letter-spacing: 1.5px;
+    margin: 50px 0 0 0;
 }
 
 .line-element{
     background-color: #000;
-    width: 640px;
-    height: 2px;     
+    height: 2px;    
+    width: 640px; 
     margin-top: 45px;
 }
 
@@ -83,14 +87,13 @@
     text-align: center;
     font-family: 'mackay-bold';
     font-size: 44px;
-    font-style: normal;
     font-weight: 700;
+    margin: 50px 0 25px 0;
 }
 
 .article{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 10px;
@@ -101,7 +104,6 @@
     width: 262px;
     text-align: center; 
     font-size: 22px;
-    font-style: normal;
 }
 
 .article-group{
@@ -109,4 +111,72 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.article-group > a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer{
+    margin-top: 113px;
+    height: 464px; 
+    background-color: #000;
+}
+
+.footer-decoration{
+    font-family: 'bga';
+    color: #FFF;
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px; 
+    line-height: 80px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.footer-decoration > p {
+    flex-shrink: 0;
+    padding: 0 10px;
+}
+
+.footer-decoration > p:nth-child(odd){
+    font-family: 'bga-bold';
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.footer-content{
+    font-family: 'bga';
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    margin-top: 45px;
+}
+
+.footer-content p{
+    width: 488px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+li a{
+    color: #FFF;
+}
+
+.footer-content > * {
+    margin: 25px;
 }

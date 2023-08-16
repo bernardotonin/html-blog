@@ -12,3 +12,8 @@
     font-family: 'mackay-bold';
     src: url(./fonts/Rene\ Bieder\ -\ Mackay\ DEMO\ Bold.otf);
 }
+
+@font-face {
+    font-family: 'bga-bold';
+    src: url(./fonts/BasisGrotesqueArabicPro-Bold.ttf);
+}
