@@ -1,0 +1,196 @@
+@import url('/assets/fonts.css');
+
+@media screen and (max-width: 375px) {
+          *{
+                    padding: 0;
+                    margin: 0;
+                    overflow-x: hidden;
+          }
+      
+          .main-header{
+                    width: 375px;
+                    height: 65px;
+                    flex-shrink: 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background: #FFF;
+                    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.16);
+          }
+      
+          .main-header a{
+                    display: flex;
+                    align-items: center;
+                    margin: 0 15px;
+          }
+      
+          .main-header a img{
+                    width: 217px;
+                    height: 20px;
+                    flex-shrink: 0;
+          }
+      
+          .main-header button img{
+                    width: 24px;
+                    height: 14px;
+                    flex-shrink: 0;
+      
+          }
+      
+          button{
+                    width: 24px;
+                    height: 18px;
+                    margin-right: 20px;
+                    background: none;
+                    color: inherit;
+                    border: none;
+                    padding: 0;
+                    font: inherit;
+                    cursor: pointer;
+                    outline: inherit;
+                    display: initial !important;
+          }
+      
+          .header-links{
+                    width: 375px;
+                    height: 100px;
+                    background-color: #000;
+                    display: none;
+      
+          }
+      
+      
+          .header-links a{
+                    user-select: none;
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: #FFF;
+                    font-family: 'bga', sans-serif;
+          }
+
+          footer{
+                    margin-top: 50px;
+                    height: 464px; 
+                    background-color: #000;
+          }
+                
+          .footer-decoration{
+                    font-family: 'bga';
+                    color: #FFF;
+                    display: flex;
+                    font-size: 20px;
+                    font-weight: 800;
+                    letter-spacing: 2px; 
+                    line-height: 80px;
+                    flex-wrap: nowrap;
+                    overflow: hidden;
+          }
+                
+          .footer-decoration > p {
+                    flex-shrink: 0;
+                    padding: 0 10px;
+          }
+                
+          .footer-decoration > p:nth-child(odd){
+                    font-family: 'bga-bold';
+          }
+                
+          ul{
+                    display: flex;
+                    flex-wrap: wrap;
+          }
+                
+          ul li{
+                    list-style: none;
+                    padding: 0 10px;
+          }
+                
+          .footer-content{
+                    font-family: 'bga';
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    color: #FFF;
+                    margin-top: 45px;
+                    flex-shrink: 0;
+          }
+                
+          .footer-content p{
+                    flex-shrink: 0;
+                    text-align: center;
+          }
+                
+          li a{
+                    color: #FFF;
+          }
+                
+          .footer-content > * {
+                    margin: 25px;
+          }
+
+          .footer-content p:last-child{
+                    margin-bottom: 0;
+          }
+
+          .post-header{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    
+                    font-style: normal;
+                    line-height: 100%
+          }
+                
+          .post-header img {
+                    width: 375px;
+                    height: 235px;
+                    flex-shrink: 0;
+          }
+                
+          .post-header h1{
+                    margin: 20px;
+                    font-size: 36px;
+                    font-family: 'mackay-bold';
+                
+                    font-style: normal;
+                    font-weight: 550;
+                    line-height: 100%;
+                    width: 335px;
+                    overflow: hidden;
+          }
+                
+          .post-header p{
+                    font-family: 'harriet';
+                    margin: 20px 20px 50px 20px;
+                    width: 335px;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 170%;
+          }
+                
+          .line-element{
+                    width: 335px;
+                    background-color: black;
+                    height: 2px;
+                    margin: 32px 0 16px 0;
+          }
+
+          .author-info{
+                    width: 335px;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+          }
+
+          .author-info img{
+                    border-radius: 50%;
+          }
+
+          .socials{
+                    display: none;
+          }
+}
