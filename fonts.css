@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'bga';
+    src: url(assets/fonts/BasisGrotesqueArabicPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'harriet';
+    src: url(assets/fonts/HARRIETTEXTREGULAR.OTF);
+}
+
+@font-face {
+    font-family: 'mackay-bold';
+    src: url(assets/fonts/Rene\ Bieder\ -\ Mackay\ DEMO\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'bga-bold';
+    src: url(assets/fonts/BasisGrotesqueArabicPro-Bold.ttf);
+}
